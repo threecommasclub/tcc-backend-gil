@@ -1,0 +1,17 @@
+{
+  "name": "tcc-backend-gil",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/threecommasclub/tcc-backend-gil.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "docker-compose -p tcc up",
+    "build": "docker-compose -p tcc build",
+    "stop": "docker-compose -p tcc stop",
+    "down": "docker-compose -p tcc down"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.5",
+    "global": "^4.4.0"
+  }
+}
